@@ -5,6 +5,8 @@ resource "aws_instance" "npd_Instance01" {
     instance_type = "t2.micro"
     availability_zone = ""
 
+    security_groups = ""
+
 
     tags = {
       Name = "Instance 01"
