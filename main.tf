@@ -1,4 +1,4 @@
-#VPC Resource
+#VPC Resource For VPC2 
 module "vpc_2" {
   source           = "./modules/vpc"
   cidr_block_range = var.cidr_block_range
